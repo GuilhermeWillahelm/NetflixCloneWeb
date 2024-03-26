@@ -2,11 +2,13 @@
     ViewData["Title"] = "Home Page";
 }
 
-@for(int i = 0; i <= 14; i++)
-{
-    <a href="/">
-        <div class="text-center card d-xxl-inline-block" style="width: 20rem; border: 3px solid white; margin: 10px;">
-            <img src="https://cinepop.com.br/wp-content/uploads/2019/09/The-100.jpg" class="card-img-top" alt="...">
-        </div>
-    </a>
-}
+<div class="position-relative" style="margin-top: 5%;">
+    @for (int i = 0; i <= 14; i++)
+    {
+        <a href="/">
+            <div class="text-center card d-xxl-inline-block" style="width: 20rem; border: 2px solid white; margin: 10px;">
+                <img src="https://cinepop.com.br/wp-content/uploads/2019/09/The-100.jpg" class="card-img-top" alt="...">
+            </div>
+        </a>
+    }
+</div>
